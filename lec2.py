@@ -197,3 +197,5 @@ pydataset.data()
 
 df = pydataset.data("AirPassengers")
 df
+
+#데이터터
