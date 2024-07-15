@@ -186,7 +186,7 @@ bin(~-3)
 ~5
 
 max(3, 4)
-var1 =[1, 2, 3
+var1 =[1, 2, 3]
 sum(var1)
 
 
@@ -198,4 +198,4 @@ pydataset.data()
 df = pydataset.data("AirPassengers")
 df
 
-#데이터터
+#데이터
