@@ -3,6 +3,17 @@ import numpy as np
 np.random.seed(2024)
 a = np.random.randint(1, 21, 10)
 
+#중복 없이 랜덤하게 뽑고 싶을 때때
+a = np.random.choice(np.arange(1, 21), 10, False)
+print(a)
+
+#중복 있게 그리고 뽑히는 비율을 정하고 싶을 때때
+a = np.random.choice(np.arange(1, 4), 100, True, np.array([2/5, 2/5, 1/5]))
+print(a)
+sum(a==1)
+sum(a==2)
+sum(a==3)
+
 print(a)
 
 # 두 번째 값 추출
