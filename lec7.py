@@ -73,7 +73,7 @@ for x in [4, 1, 2, 3]:
     print(x)
     
 for x in range(5):
-    print(i**2)
+    print(x**2)
     
 mylist=[]
 mylist.append(2)

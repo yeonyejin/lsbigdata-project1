@@ -35,7 +35,7 @@ place_mean=house_train["GrLivArea"].mean()
 house_test["GrLivArea"]=house_test["GrLivArea"].fillna(place_mean)
 #house_test.fillna()
 
-#sun 데이터 불러오기
+#sub 데이터 불러오기
 sub_df = pd.read_csv('data/houseprice/sample_submission.csv')
 sub_df
 
@@ -48,7 +48,7 @@ sub_df.to_csv("data/houseprice/sample_submission.csv", index=False)
 
 
 
-=================================
+============================================================
 house_mean2=house.groupby(["YearBuilt","GarageCars","KitchenQual"], as_index=False)\
          .agg( 
              house_mean=("SalePrice", "mean")
@@ -78,7 +78,7 @@ price_mean
 
 house_test = house_test.fillna(price_mean)
 
-# submission 파일 만듬
+# submission 파일 만듦
 submission = house_test[["Id","SalePrice"]]
 submission
 

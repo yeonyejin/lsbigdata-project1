@@ -36,11 +36,11 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 #### 제목 4
 
-**굵은 텍스트** 
+**굵은 텍스트**
 
-**굵은 텍스트** 
+**굵은 텍스트**
 
-*이탤릭 텍스트* 
+*이탤릭 텍스트*
 
 *기울임 텍스트*
 
@@ -71,7 +71,6 @@ The `echo: false` option disables the printing of code (only output is displayed
 def greet():
     print("Hello, World!")
 ```
-
 
 ## 파이썬 코드 청크
 
@@ -151,9 +150,7 @@ def greet():
 
 ## 수식 입력 방법
 
-*인라인 수식: $ 하나로 감싸준다. (본문에 입력) 
-*디스플레이 수식: $두 개로 감싸준다.(독립적인 문단)
-
+*인라인 수식: \$ 하나로 감싸준다. (본문에 입력)* 디스플레이 수식: \$두 개로 감싸준다.(독립적인 문단)
 
 문장안에 숫자 $5^2$를 넣어보자.
 
@@ -162,4 +159,3 @@ def greet():
 $$
 \sqrt{2}
 $$
-
